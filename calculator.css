@@ -14,15 +14,28 @@ body {
    border-radius: 20px;
 }
 
-#display {
+
+.previousOutput {
     width: 100%;
-    height: 40px;
-    font-size: 5rem;
+    height: 10px;
+    font-size: 1.8rem;
     border: none;
-    text-align: left;
-    background-color: #efa96b;
+    text-align: start;
+    background-color: hwb(28 51% 2%);
     color:#edddd4;
     padding: 20px;
+}
+
+.currentOutput {
+    width: 100%;
+    height: 30px;
+    font-size: 4rem;
+    border: none;
+    text-align: start;
+    background-color: hwb(28 51% 2%);
+    color:#edddd4;
+    padding-left:10px;
+    padding-bottom:40px;
 }
 
 #buttons {
